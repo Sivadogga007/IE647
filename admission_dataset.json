@@ -1,0 +1,281 @@
+{
+  "students": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10"
+  ],
+  "colleges": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "capacities": {
+    "C1": {
+      "regular_quota": 67,
+      "reserved_quota": 0,
+      "eligibility_score": 65
+    },
+    "C2": {
+      "regular_quota": 59,
+      "reserved_quota": 3,
+      "eligibility_score": 70
+    },
+    "C3": {
+      "regular_quota": 72,
+      "reserved_quota": 5,
+      "eligibility_score": 79
+    },
+    "C4": {
+      "regular_quota": 79,
+      "reserved_quota": 8,
+      "eligibility_score": 63
+    },
+    "C5": {
+      "regular_quota": 85,
+      "reserved_quota": 4,
+      "eligibility_score": 80
+    }
+  },
+  "score_components": [
+    "Math",
+    "Language",
+    "Grades"
+  ],
+  "college_weights": {
+    "C1": {
+      "Math": 0.33,
+      "Language": 0.33,
+      "Grades": 0.34
+    },
+    "C2": {
+      "Math": 0.41,
+      "Language": 0.3,
+      "Grades": 0.29
+    },
+    "C3": {
+      "Math": 0.23,
+      "Language": 0.31,
+      "Grades": 0.46
+    },
+    "C4": {
+      "Math": 0.28,
+      "Language": 0.21,
+      "Grades": 0.51
+    },
+    "C5": {
+      "Math": 0.49,
+      "Language": 0.31,
+      "Grades": 0.2
+    }
+  },
+  "raw_scores": {
+    "a1": {
+      "Math": 90,
+      "Language": 57,
+      "Grades": 51
+    },
+    "a2": {
+      "Math": 97,
+      "Language": 67,
+      "Grades": 65
+    },
+    "a3": {
+      "Math": 64,
+      "Language": 58,
+      "Grades": 97
+    },
+    "a4": {
+      "Math": 56,
+      "Language": 93,
+      "Grades": 97
+    },
+    "a5": {
+      "Math": 84,
+      "Language": 55,
+      "Grades": 87
+    },
+    "a6": {
+      "Math": 77,
+      "Language": 52,
+      "Grades": 51
+    },
+    "a7": {
+      "Math": 55,
+      "Language": 63,
+      "Grades": 64
+    },
+    "a8": {
+      "Math": 82,
+      "Language": 88,
+      "Grades": 51
+    },
+    "a9": {
+      "Math": 85,
+      "Language": 62,
+      "Grades": 95
+    },
+    "a10": {
+      "Math": 91,
+      "Language": 94,
+      "Grades": 84
+    }
+  },
+  "student_scores": {
+    "a1": {
+      "C1": 66,
+      "C2": 69,
+      "C3": 62,
+      "C4": 63,
+      "C5": 72
+    },
+    "a2": {
+      "C1": 76,
+      "C2": 79,
+      "C3": 73,
+      "C4": 74,
+      "C5": 81
+    },
+    "a3": {
+      "C1": 73,
+      "C2": 72,
+      "C3": 77,
+      "C4": 80,
+      "C5": 69
+    },
+    "a4": {
+      "C1": 82,
+      "C2": 79,
+      "C3": 86,
+      "C4": 85,
+      "C5": 76
+    },
+    "a5": {
+      "C1": 75,
+      "C2": 76,
+      "C3": 76,
+      "C4": 79,
+      "C5": 76
+    },
+    "a6": {
+      "C1": 60,
+      "C2": 62,
+      "C3": 57,
+      "C4": 58,
+      "C5": 64
+    },
+    "a7": {
+      "C1": 61,
+      "C2": 60,
+      "C3": 62,
+      "C4": 61,
+      "C5": 59
+    },
+    "a8": {
+      "C1": 73,
+      "C2": 75,
+      "C3": 70,
+      "C4": 67,
+      "C5": 78
+    },
+    "a9": {
+      "C1": 81,
+      "C2": 81,
+      "C3": 82,
+      "C4": 85,
+      "C5": 80
+    },
+    "a10": {
+      "C1": 90,
+      "C2": 90,
+      "C3": 89,
+      "C4": 88,
+      "C5": 91
+    }
+  },
+  "student_preferences": {
+    "a1": [
+      "C2",
+      "C1",
+      "C4",
+      "C3",
+      "C5"
+    ],
+    "a2": [
+      "C2",
+      "C4",
+      "C3",
+      "C5",
+      "C1"
+    ],
+    "a3": [
+      "C2",
+      "C5",
+      "C4",
+      "C1",
+      "C3"
+    ],
+    "a4": [
+      "C1",
+      "C5",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "a5": [
+      "C4",
+      "C1",
+      "C5",
+      "C3",
+      "C2"
+    ],
+    "a6": [
+      "C2",
+      "C4",
+      "C5",
+      "C1",
+      "C3"
+    ],
+    "a7": [
+      "C3",
+      "C4",
+      "C1",
+      "C2",
+      "C5"
+    ],
+    "a8": [
+      "C2",
+      "C1",
+      "C5",
+      "C3",
+      "C4"
+    ],
+    "a9": [
+      "C2",
+      "C5",
+      "C4",
+      "C1",
+      "C3"
+    ],
+    "a10": [
+      "C5",
+      "C1",
+      "C2",
+      "C4",
+      "C3"
+    ]
+  },
+  "bea_eligible": [
+    "a4",
+    "a6",
+    "a10"
+  ]
+}
